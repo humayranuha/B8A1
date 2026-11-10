@@ -24,3 +24,14 @@ function formatCoordinate(
     return `Location: ${locationName} (${latitude}, ${longitude})`;
 }
 
+
+
+function concatenateArrays<T>(...arrays: T[][]): T[] {
+    const result: T[] = [];
+    for (const arr of arrays) {
+        for (const item of arr) {
+            result.push(item);
+        }
+    }
+    return result;
+}
