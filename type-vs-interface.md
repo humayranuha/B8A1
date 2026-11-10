@@ -1,4 +1,4 @@
-# Type Aliases vs. Interfaces in TypeScript
+# Type Aliases vs Interfaces in TypeScript
 
 ## Introduction
 
